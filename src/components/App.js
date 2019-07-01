@@ -11,11 +11,11 @@ class App extends React.Component {
         return (
             <div className="ui container">
                 <LanguageStore>
-                <LanguageSelector />
+                    <LanguageSelector />
 
-                <ColorContext.Provider value="red">
+                    <ColorContext.Provider value="red">
                         <UserCreate />
-                </ColorContext.Provider>
+                    </ColorContext.Provider>
                 </LanguageStore>
             </div>
         );
